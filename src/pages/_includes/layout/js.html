@@ -24,10 +24,6 @@
 {% for script in site.captured_global.scripts %}
 {{ script }}
 {% endfor %}
-
-{% for script in site.captured_once.scripts %}
-{{ script }}
-{% endfor %}
 {% endremoveemptylines %}
 
 {% assign libs = page.libs | default: layout.libs %}
