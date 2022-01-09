@@ -23,7 +23,7 @@ title: \"{{ page.title }}\"
 description: \"{{ page.description }}\"
 {% if page.bootstrap-link %}bootstrap-link: \"{{ page.bootstrap-link }}\"{% endif %}
 {% if page.plugin %}plugin: \"{{ page.plugin }}\"{% endif %}
-{% if page.libs %}libs: \"{{ page.libs }}\"{% endif %}
+{% if page.libs %}libs: {% for lib in page.libs %}\"{{ site.data.libs.js[lib] }}\"{% endfor %}{% endif %}
 {% endremoveemptylines %}
 ---
 
