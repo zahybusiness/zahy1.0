@@ -1,11 +1,7 @@
 ---
-title: Getting started
+title: Build locally
 menu: docs.base.getting-started
 ---
-
-## What are the benefits?
-
-Tabler is a perfect solution if you want to create an interface which is not only user-friendly but also fully responsive. Thanks to the big choice of ready-made components, you can customize your design and adapt it to the needs of even the most demanding users. On top of that, Tabler is an open source solution, continuously developed and improved by the open source community.
 
 ## Set up the environment
 

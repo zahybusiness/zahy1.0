@@ -40,3 +40,4 @@ done
 mkdir -p docs-mdx
 mv docs-tmp/docs/docs/* docs-mdx
 rm -rf docs-tmp/
+rm -rf docs-mdx/*.html

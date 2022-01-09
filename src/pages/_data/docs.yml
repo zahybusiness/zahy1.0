@@ -8,11 +8,8 @@ base:
 #  icon: brand-tabler
   children:
     getting-started:
-      title: Getting Started
+      title: Build locally
       url: docs/getting-started.html
-    download:
-      title: Download
-      url: docs/download.html
     browser-support:
       title: Browser Support
       url: docs/browser-support.html
