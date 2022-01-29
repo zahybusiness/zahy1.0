@@ -35,7 +35,7 @@
   }
 
   @if $enable-extra-colors {
-    @each $color, $value in $extra-colors {
+    @each $color, $value in theme-colors() {
       &.bg-#{$color} {
         border-color: $value;
       }

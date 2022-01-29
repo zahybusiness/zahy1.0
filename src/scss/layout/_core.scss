@@ -1,7 +1,13 @@
 // stylelint-disable property-no-vendor-prefix
 :root {
-  font-size: 16px;
   height: 100%;
+
+  @each $color, $value in theme-colors() {
+    --#{$variable-prefix}#{$color}-lighter: #{$value};
+    --#{$variable-prefix}#{$color}-light: #{$value};
+    --#{$variable-prefix}#{$color}: #{$value};
+    --#{$variable-prefix}#{$color}-dark: #{$value};
+  }
 
   --#{$variable-prefix}card-bg: #{$card-bg};
   --#{$variable-prefix}card-bg-rgb: #{to-rgb($card-bg)};
